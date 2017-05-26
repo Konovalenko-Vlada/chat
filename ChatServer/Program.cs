@@ -21,12 +21,7 @@ namespace ChatServer
 
         public class AsyncChatServer
         {
-            /*
-             * Сервак - асинхронный, т.е. может обрабатывать сразу-же сотни клиентов
-             * без задержки. Это все возможно благодаря callback-ам
-             * функциям, которые ожидают получения чего-либо и ManualResetEvent,
-             * который делает всю оставщуюся магию
-             */
+            
             Char[] SPLIT_SEPARATOR = new Char[] { ' ' };
 
             Encoding Encoder = Encoding.UTF8;
@@ -121,11 +116,6 @@ namespace ChatServer
                 }
                 else
                 {
-                    /*
-                     * Здесь сервер "понимает" команды самописного протокола.
-                     * Результат записывается в переменную SendData, 
-                     * которая потом уходить на send
-                     */
                     switch (Command[0])
                     {
                         case "HISTORY":
