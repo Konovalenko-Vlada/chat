@@ -1,0 +1,16 @@
+﻿<Window x:Class="ChatClient.ChatWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatClient"
+        mc:Ignorable="d"
+        Title="Чат" Height="300" Width="300" Background="White" Loaded="Window_Loaded" >
+    <DockPanel>
+        <DockPanel LastChildFill="False" DockPanel.Dock="Bottom" Margin="10" VerticalAlignment="Bottom" >
+            <TextBox x:Name="ChatText" TextWrapping="Wrap" Margin="0,0,10,0" MinWidth="203"/>
+            <Button x:Name="ChatSend" Content="Отправить" HorizontalContentAlignment="Center" Click="ChatSend_Click" IsDefault="True" />
+        </DockPanel>
+        <TextBox x:Name="ChatBox" TextWrapping="Wrap" Margin="10,10,10,0" DockPanel.Dock="Bottom" IsReadOnly="True"/>
+    </DockPanel>
+</Window>

@@ -1,0 +1,17 @@
+H:\mvscr\Chat\ChatClient\obj\Debug\ChatClient.csprojResolveAssemblyReference.cache
+H:\mvscr\Chat\ChatClient\obj\Debug\App.g.cs
+H:\mvscr\Chat\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
+H:\mvscr\Chat\ChatClient\obj\Debug\ChatClient.csproj.GenerateResource.Cache
+H:\mvscr\Chat\ChatClient\obj\Debug\ChatWindow.g.cs
+H:\mvscr\Chat\ChatClient\obj\Debug\ConnectWindow.g.cs
+H:\mvscr\Chat\ChatClient\obj\Debug\App.baml
+H:\mvscr\Chat\ChatClient\obj\Debug\ChatWindow.baml
+H:\mvscr\Chat\ChatClient\obj\Debug\ConnectWindow.baml
+H:\mvscr\Chat\ChatClient\bin\Debug\ChatClient.exe.config
+H:\mvscr\Chat\ChatClient\bin\Debug\ChatClient.exe
+H:\mvscr\Chat\ChatClient\bin\Debug\ChatClient.pdb
+H:\mvscr\Chat\ChatClient\obj\Debug\ChatClient_MarkupCompile.cache
+H:\mvscr\Chat\ChatClient\obj\Debug\ChatClient_MarkupCompile.lref
+H:\mvscr\Chat\ChatClient\obj\Debug\ChatClient.g.resources
+H:\mvscr\Chat\ChatClient\obj\Debug\ChatClient.exe
+H:\mvscr\Chat\ChatClient\obj\Debug\ChatClient.pdb
